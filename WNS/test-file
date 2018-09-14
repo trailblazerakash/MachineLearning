@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <link rel='icon' id='favicon' type='image/x-icon'
+        href='https://www.analyticsvidhya.com/wp-content/uploads/2015/02/logo_square_v2.jpg'>
+  <link rel='apple-touch-icon' href='https://www.analyticsvidhya.com/wp-content/uploads/2015/02/logo_square_v2.jpg'>
+  <link rel='apple-touch-icon' sizes='76x76'
+        href='https://www.analyticsvidhya.com/wp-content/uploads/2015/02/logo_square_v2.jpg'>
+  <link rel='apple-touch-icon' sizes='114x114'
+        href='https://www.analyticsvidhya.com/wp-content/uploads/2015/02/logo_square_v2.jpg'>
+  <link rel='apple-touch-icon' sizes='144x144'
+        href='https://www.analyticsvidhya.com/wp-content/uploads/2015/02/logo_square_v2.jpg'>
+
+
+  <title>
+    Analytics Vidhya Accounts | Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="version" content="0.0.0-279300c">
+  <meta name="description" content="">
+
+  
+    <script>Raven.config('//32c2589260264e5bbdabc68625ec92c2@sentry.analyticsvidhya.com/5').install()</script>
+  
+
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  
+  <link rel="stylesheet" href="/static/CACHE/css/a0566395e004.css" type="text/css" />
+  
+</head>
+
+<body class=" ">
+<!--[if lt IE 8]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+<!--announcements block here -->
+
+  <div id="announcements">
+  <div class="container">
+      <div class="row">
+          <p class="text-center">
+            <a href="https://trainings.analyticsvidhya.com/courses/course-v1:AnalyticsVidhya+CVDL101+CVDL101_T1/about?utm_source=identity&utm_medium=web&utm_campaign=CVLAUNCH60" target="_blank">
+              <span>MEGA-LAUNCH Offer on Computer Vision Using Deep Learning | </span>
+              <span>Use COUPON CODE: <strong>CVLAUNCH60</strong> for 60% Discount | </span>
+              <span>Course Starts 4th September | <strong>Buy Now</strong> </span>
+            </a>
+          </p>
+      </div>
+  </div>
+</div>
+
+
+
+
+  
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" id="navbar-brand" href="https://www.analyticsvidhya.com" target="_blank">
+        <img src="/static/images/av_logo/AV-color.9bf4f2a4880f.svg" alt='Analytics Vidhya'>
+      </a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Learn <span
+            class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a target="_blank" href="https://www.analyticsvidhya.com/blog/">Blog</a></li>
+            <li><a target="_blank"
+                   href="https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/">Learning
+              Paths </a></li>
+            <li><a target="_blank" href="https://trainings.analyticsvidhya.com/">Trainings</a></li>
+            <li><a target="_blank" href="https://www.analyticsvidhya.com/blog/category/infographics/">Infographics</a>
+            </li>
+            <li><a target="_blank"
+                   href="https://www.analyticsvidhya.com/glossary-of-common-statistics-and-machine-learning-terms/">Glossary</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a target="_blank" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+             aria-expanded="false">Engage <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a target="_blank" href="https://discuss.analyticsvidhya.com/">Discuss</a></li>
+            <li><a target="_blank" href="https://id.analyticsvidhya.com/">Events</a></li>
+            <li><a target="_blank" href="https://www.analyticsvidhya.com/about-me/write/">Write for us </a>
+            </li>
+            <li><a target="_blank" href="https://datahack.analyticsvidhya.com/users">Community Rankings</a></li>
+            <li><a target="_blank" href="https://datahack.analyticsvidhya.com/students">Students Rankings</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a target="_blank" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+             aria-expanded="false">Compete <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a target="_blank" href="https://datahack.analyticsvidhya.com/">Datahack</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a target="_blank" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+             aria-expanded="false">Get Hired<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a target="_blank" href="https://www.analyticsvidhya.com/jobs/">Jobs</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right" id="nav-right">
+        
+          <li>
+            <a class="btn-login" href="/accounts/login/"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a>
+          </li>
+          <li><a href="/accounts/signup/"><i class="fa fa-user-plus" aria-hidden="true"></i> Register</a></li>
+        
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+
+
+<div class="workspace">
+  
+  
+  
+
+  
+    <div class="main__container">
+    
+      <h1 class="main__header">JOIN THE WORLD'S LARGEST
+        ANALYTICS COMMUNITY</h1>
+    
+    <div class="main__content">
+      
+        <h1 class="main__content--header">Login</h1>
+        <div class="main__content--line"></div>
+        
+  
+    <div class="login__form">
+      <p>If you have not created an account yet, then please
+        <a href="/accounts/signup/?next=%2Fopenid%2Fauthorize%3Fnonce%3D7P9W28VGLC1Y6GIMA0x7ZWF6yJGxmGMy%26response_type%3Dcode%26scope%3Dopenid%2Bemail%2Bprofile%26redirect_uri%3Dhttp%253A%252F%252Fdatahack.analyticsvidhya.com%252Foidc%252Fcallback%252F%26state%3Dkf9Tex5mZf7RlRYiaG0usccGkhNapKJx%26client_id%3D161754">register</a> first.</p>
+
+
+      <form class="login" method="POST" action="/accounts/login/">
+        <input type='hidden' name='csrfmiddlewaretoken' value='P4javmmGaopx6tvPSkJg7o9dnj7YksEpS3yuumhrJpzVSCAcMBTl4NsQG6ptnKLu' />
+        
+
+<div id="div_id_login" class="form-group"> <label for="id_login" class="control-label  requiredField">
+                Username or e-mail<span class="asteriskField">*</span> </label> <div class="controls "> <input type="text" name="login" autofocus="autofocus" placeholder="Username or e-mail" class="textinput textInput form-control" required id="id_login" /> </div> </div> <div id="div_id_password" class="form-group"> <label for="id_password" class="control-label  requiredField">
+                Password<span class="asteriskField">*</span> </label> <div class="controls "> <input type="password" name="password" placeholder="Password" class="textinput textInput form-control" required id="id_password" /> </div> </div>
+
+        
+          <input type="hidden" name="next" value="/openid/authorize?nonce=7P9W28VGLC1Y6GIMA0x7ZWF6yJGxmGMy&amp;response_type=code&amp;scope=openid+email+profile&amp;redirect_uri=http%3A%2F%2Fdatahack.analyticsvidhya.com%2Foidc%2Fcallback%2F&amp;state=kf9Tex5mZf7RlRYiaG0usccGkhNapKJx&amp;client_id=161754"/>
+        
+        <a class="button secondaryAction" href="/accounts/password/reset/">Forgot Password?</a>
+        <br/>
+        <button class="primaryAction login--cta" type="submit">Login &raquo;</button>
+      </form>
+    </div>
+
+    <div class="spaced-top-bot">
+      <p><a href="/accounts/google/login/?next=%2Fopenid%2Fauthorize%3Fnonce%3D7P9W28VGLC1Y6GIMA0x7ZWF6yJGxmGMy%26response_type%3Dcode%26scope%3Dopenid%2Bemail%2Bprofile%26redirect_uri%3Dhttp%253A%252F%252Fdatahack.analyticsvidhya.com%252Foidc%252Fcallback%252F%26state%3Dkf9Tex5mZf7RlRYiaG0usccGkhNapKJx%26client_id%3D161754" class="google-login"><img src="/static/images/google-login.e367df05f453.svg" alt="Login with Google"></a></p>
+    </div>
+  
+
+        
+          <div class="main__content--footer">
+            <p class="footer--subtitle subtitle_line"><span>And incase</span></p>
+            <p class="footer--text"> In case of any issue, please contact us at info@analyticsvidhya.com</p>
+          </div>
+          
+      
+    </div>
+    </div>
+  
+</div>
+
+
+  
+<footer>
+    <div class="footer-container">
+      <div class="upper-footer">
+        <div class="logo">
+          <img src="/static/images/av_logo/AV-white.d14465ee4af2.png" class="footer-logo">
+        </div>
+        <div class="footer-content">
+          <div class="footer-links-holder">
+            <h5 class="links-hide">ANALYTICS VIDHYA</h5>
+            <ul class="footer-links av-links">
+              <li><a target="_blank" href="http://www.analyticsvidhya.com/about-me/">About Us</a></li>
+              <li><a target="_blank" href="https://www.analyticsvidhya.com/about-me/team/">Our Team</a></li>
+              <li><a target="_blank" href="https://www.analyticsvidhya.com/career-analytics-vidhya/">Career</a></li>
+              <li><a target="_blank" href="https://www.analyticsvidhya.com/contact/">Contact Us</a></li>
+            </ul>
+            <!--  <p class= "datafest"><a href="https://www.analyticsvidhya.com/datafest-2017/">DATAFEST 2017</a></p> -->
+          </div>
+          <div class="mobile-links-holder">
+            <div class="links">
+              <a target="_blank" href="http://www.analyticsvidhya.com/about-me/">About Us</a>
+            </div>
+            <div class="links">
+              <a target="_blank" href="https://www.analyticsvidhya.com/about-me/team/">&bull;</a>
+            </div>
+            <div class="links">
+              <a target="_blank" href="https://www.analyticsvidhya.com/about-me/team/">Our Team</a>
+            </div>
+            <div class="links">
+              <a target="_blank" href="https://www.analyticsvidhya.com/about-me/team/">&bull;</a>
+            </div>
+            <div class="links">
+              <a target="_blank" href="https://www.analyticsvidhya.com/career-analytics-vidhya/">Careers</a>
+            </div>
+            <div class="links">
+              <a target="_blank" href="https://www.analyticsvidhya.com/about-me/team/">&bull;</a>
+            </div>
+            <div class="links">
+              <a target="_blank" href="https://www.analyticsvidhya.com/contact/">Contact Us</a>
+            </div>
+            <!-- <p class= "datafest"><a href="https://www.analyticsvidhya.com/datafest-2017/">DATAFEST 2017</a></p> -->
+          </div>
+          <div class="footer-links-holder">
+            <h5 class="links-show">DATA SCIENTISTS</h5>
+            <ul class="footer-links">
+              <li><a target="_blank" href="https://www.analyticsvidhya.com/blog">Blog</a></li>
+              <li><a target="_blank" href="https://datahack.analyticsvidhya.com/">Hackathon</a></li>
+              <li><a target="_blank" href="https://discuss.analyticsvidhya.com/">Discussions</a></li>
+              <li><a target="_blank" href="https://www.analyticsvidhya.com/jobs/">Apply Jobs</a></li>
+              <li><a target="_blank" href="https://datahack.analyticsvidhya.com/users/">Leaderboard</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-holder">
+            <h5 class="links-show">COMPANIES</h5>
+            <ul class="footer-links">
+              <li><a target="_blank" href="https://www.analyticsvidhya.com/corporate/">Post Jobs</a></li>
+              <li><a target="_blank" href="https://trainings.analyticsvidhya.com/">Trainings</a></li>
+              <li><a target="_blank" href="https://datahack.analyticsvidhya.com/">Hiring Hackathons</a></li>
+              <li><a target="_blank" href="https://www.analyticsvidhya.com/contact/">Advertising</a></li>
+              <li><a target="_blank" href="https://www.analyticsvidhya.com/contact/">Reach Us</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="mobile-signup">
+          <p>Don't have an account? <a target="_blank" href="" class="signup-link">Sign up</a> here</p>
+        </div>
+        
+        <div class="footer-social">
+        <div class="join">
+            <h5> JOIN OUR COMMUNITY :</h5>
+        </div>
+        <div class="social-stats">
+            <div class="social" id="wrapper">
+                <a href="https://www.facebook.com/AnalyticsVidhya/" target="_blank" class="item facebook"><i class="fa fa-facebook social-img"></i></a>
+                <a href="https://www.facebook.com/AnalyticsVidhya/" target="_blank" class="item facebook"><span class="count2_followers" id="followers-count2">42597</span></a>
+                <a href="https://www.facebook.com/AnalyticsVidhya/" target="_blank" class="item facebook"><span id="followers">Followers</span></a>
+            </div>
+            <div class="social" id="wrapper">
+                <a href="https://twitter.com/analyticsvidhya" target="_blank" class="item twitter"><i class="fa fa-twitter social-img"></i></a>
+                <a href="https://twitter.com/analyticsvidhya" target="_blank" class="item twitter"><span class="count2_followers" id="followers-count2">14063</span></a>
+                <a href="https://twitter.com/analyticsvidhya" target="_blank" class="item twitter"><span id="followers">Followers</span></a>
+            </div>
+            <div class="social" id="wrapper">
+                <a href="https://plus.google.com/+Analyticsvidhya" target="_blank" class="item google"><i class="fa fa-google-plus social-img"></i></a>
+                <a href="https://plus.google.com/+Analyticsvidhya" target="_blank" class="item google"><span class="count2_followers" id="followers-count2">2521</span></a>
+                <a href="https://plus.google.com/+Analyticsvidhya" target="_blank" class="item google"><span id="followers">Followers</span></a>
+            </div>
+            <div class="social" id="wrapper">
+                <a href="https://www.linkedin.com/m/login/" target="_blank" class="item linkedin"><i class="fa fa-linkedin social-img"></i></a>
+                <a href="https://www.linkedin.com/m/login/" target="_blank" class="item linkedin"><span class="count2_followers" id="followers-count2"> 5432</span></a>
+                <a href="https://www.linkedin.com/m/login/" target="_blank" class="item linkedin"><span id="followers">Followers</span></a>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div id="lower">
+    <div class="lower-footer">
+      <div class="lower-footer-container">
+        <p>&copy; Copyright 2013-2018 Analytics Vidhya.</p>
+        <ul class="lower-footer-links">
+          <li><a target="_blank" href="https://www.analyticsvidhya.com/privacy-policy/">Privacy Policy</a></li>
+          <li><a target="_blank" href="https://www.analyticsvidhya.com/terms/">Terms of Use</a></li>
+          <li><a target="_blank" href="https://www.analyticsvidhya.com/refund-policy/">Refund Policy</a></li>
+        </ul>
+      </div>
+      
+      <div class="lower-footer--signup">
+        <p>Don't have an account? <a class="signup--link" href="/accounts/signup/">Register</a> here</p>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<form id="logout-form" action="/accounts/logout/" method="post"><input type='hidden' name='csrfmiddlewaretoken' value='P4javmmGaopx6tvPSkJg7o9dnj7YksEpS3yuumhrJpzVSCAcMBTl4NsQG6ptnKLu' />
+</form>
+
+<!-- Le javascript
+================================================== -->
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124820947-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-124820947-1');
+    gtag('config', 'AW-842567402');
+  </script>
+
+
+
+
+  <!-- Latest JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+          integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+          crossorigin="anonymous"></script>
+
+  <!-- place project specific Javascript in this file -->
+  <script src="/static/js/main.e97a48306881.js"></script>
+
+  <script>
+
+    window.onload = function(){
+      var messageElement = document.getElementById('auth-messages');
+      if(messageElement){
+          var delayInMilliseconds = 4000; //4 second
+          setTimeout(function() {
+            //your code to be executed after 4 second
+            messageElement.style.display = "none";
+          }, delayInMilliseconds);
+
+        }
+    }
+
+  </script>
+
+  
+
+</body>
+</html>
