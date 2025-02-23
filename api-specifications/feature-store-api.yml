@@ -1,0 +1,128 @@
+openapi: 3.0.0
+info:
+  title: Feature Store API
+  description: API for managing feature store operations based on Feast
+  version: 1.0.0
+servers:
+  - url: /api/v1
+paths:
+  /feature-views:
+    get:
+      summary: List all feature views
+      description: Retrieve a list of all registered feature views
+      responses:
+        '200':
+          description: A list of feature views
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    name:
+                      type: string
+                    entities:
+                      type: array
+                      items:
+                        type: string
+                    features:
+                      type: array
+                      items:
+                        type: string
+    post:
+      summary: Create a new feature view
+      description: Register a new feature view in the feature store
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                entities:
+                  type: array
+                  items:
+                    type: string
+                features:
+                  type: array
+                  items:
+                    type: string
+      responses:
+        '201':
+          description: Feature view created successfully
+
+  /feature-views/{name}:
+    get:
+      summary: Get details of a specific feature view
+      parameters:
+        - name: name
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Feature view details
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  entities:
+                    type: array
+                    items:
+                      type: string
+                  features:
+                    type: array
+                    items:
+                      type: string
+    delete:
+      summary: Delete a feature view
+      parameters:
+        - name: name
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Feature view deleted successfully
+
+  /features:
+    post:
+      summary: Retrieve feature values for given entities
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                entity_ids:
+                  type: array
+                  items:
+                    type: string
+                feature_names:
+                  type: array
+                  items:
+                    type: string
+      responses:
+        '200':
+          description: Retrieved feature values
+          content:
+            application/json:
+              schema:
+                type: object
+                additionalProperties:
+                  type: object
+                  properties:
+                    value:
+                      type: string
+                    timestamp:
+                      type: string
+                      format: date-time

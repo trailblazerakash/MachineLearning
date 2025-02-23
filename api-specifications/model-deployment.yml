@@ -1,0 +1,38 @@
+apiVersion: "serving.kserve.io/v1beta1"
+kind: InferenceService
+metadata:
+  name: model-serving
+spec:
+  predictor:
+    canaryTrafficPercent: 15  # Send 15% to the canary version
+    traffic: 80  # Main version gets 80% of traffic
+    minReplicas: 1
+    maxReplicas: 5
+    containers:
+      - name: model-v1
+        image: your-docker-repo/model-api:v1
+        resources:
+          limits:
+            cpu: "1"
+            memory: "2Gi"
+          requests:
+            cpu: "500m"
+            memory: "1Gi"
+      - name: model-v2
+        image: your-docker-repo/model-api:v2
+        resources:
+          limits:
+            cpu: "1"
+            memory: "2Gi"
+          requests:
+            cpu: "500m"
+            memory: "1Gi"
+      - name: model-v3
+        image: your-docker-repo/model-api:v3
+        resources:
+          limits:
+            cpu: "1"
+            memory: "2Gi"
+          requests:
+            cpu: "500m"
+            memory: "1Gi"
